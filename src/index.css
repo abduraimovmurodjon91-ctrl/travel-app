@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/autoplay";
+
+:root {
+  --gray: #777e90;
+  --black: #23262f;
+  --white: #fcfcfd;
+  --green: #4ac63f;
+  --blue: #62b3fd;
+  --yellow: #f6c92d;
+  --pink: #fd7fe9;
+  --light-blue: #cdedff;
+  --light-orange: #ffebdf;
+  --light-pink: #ffd5fb;
+  --light-green: #d6f4bf;
+}
+
+html {
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  padding: 0px 32px;
+  margin-inline: auto;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--gray);
+  background-color: var(--white);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+li {
+  list-style: none;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+}
+
+input[type="range"] {
+  width: 100%;
+  appearance: none;
+  height: 6px;
+  background: linear-gradient(to right, black 0%, black 50%, #ddd 50%, #ddd 100%);
+  border-radius: 5px;
+}
+
+
